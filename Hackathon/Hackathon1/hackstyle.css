@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: linear-gradient(90deg, #5facff, #9e7bfe);
+  padding: 15px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  color: white;
+  font-size: 28px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.hero {
+  background: url("flag.jpg") center center / cover no-repeat;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  width: 90%;
+  max-width: 700px;
+}
+
+.hero-overlay h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.booking-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.booking-box label {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.booking-box input {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  width: 180px;
+  outline: none;
+}
+
+.booking-box button {
+  padding: 10px 20px;
+  background: linear-gradient(90deg, #5facff, #9e7bfe);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.booking-box button:hover {
+  background: linear-gradient(90deg, #4a90e2, #7d5fff);
+}
+
+.destinations {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.destinations h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #ff7e5f;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 300px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card h3 {
+  padding: 15px 15px 5px;
+  font-size: 20px;
+  color: #333;
+}
+
+.card p {
+  padding: 0 15px 15px;
+  color: #666;
+  font-size: 14px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
